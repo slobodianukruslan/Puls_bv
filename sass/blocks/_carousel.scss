@@ -1,0 +1,42 @@
+.carousel {
+	padding: 81px 0;
+
+	&__inner {
+		width: 750px;
+		margin: 0 auto;
+		position: relative;
+
+		@media (max-width: 930px) {
+			width: 75%;
+		}
+
+		@media (max-width: 480px) {
+			width: 95%;
+		}
+	}
+
+	&__item {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.arrow__left,
+.arrow__right {
+	width: 31px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -66px;
+
+	@media (max-width: 930px) {
+		display: none;
+	}
+}
+
+.arrow__right {
+	right: -66px;
+	left: auto;
+}

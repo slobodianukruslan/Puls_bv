@@ -1,0 +1,37 @@
+html {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    max-width: 980px;
+    padding: 0 15px;
+    margin: 0 auto;
+    &--overflow {
+    	overflow: hidden;
+    }
+}
+
+@import 'base/_variables';
+@import 'base/_animate.scss';
+@import 'blocks/_promo.scss';
+@import 'blocks/_header.scss';
+@import 'blocks/_buttons.scss';
+@import 'blocks/_advantages.scss';
+@import 'blocks/_title.scss';
+@import 'blocks/_consultation.scss';
+@import 'blocks/_forms.scss';
+@import 'blocks/_carousel.scss';
+@import 'blocks/_catalog.scss';
+@import 'blocks/_feedback.scss';
+@import 'blocks/_footer.scss';
+@import 'blocks/_modal.scss';
+@import 'blocks/_scrollup.scss';
